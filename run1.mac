@@ -1,0 +1,23 @@
+/control/verbose 0
+/run/verbose 0
+/event/verbose 0
+/tracking/verbose 0
+/hits/verbose 0
+/run/particle/verbose 0
+/geometry/navigator/verbose 0
+/process/verbose 0
+/particle/verbose 0
+/cuts/verbose 0
+/process/setVerbose 0
+/vis/verbose 0
+
+/process/optical/cerenkov/setMaxPhotons 30
+/process/optical/cerenkov/setMaxBetaChange 10.0
+/process/optical/cerenkov/setTrackSecondariesFirst true
+
+
+/vis/scene/endOfEventAction refresh 
+
+/gun/particle e-
+/gun/energy 1 MeV
+/run/beamOn 10
